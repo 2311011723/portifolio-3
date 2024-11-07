@@ -1,0 +1,113 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(12, 0, 27);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 10px 15px rgb(213, 179, 255);
+    z-index: 1030;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 50px 0;
+}
+
+.bv {
+    color: rgb(235, 218, 255);
+    font-family: cursive;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(7, 0, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10ch;
+}
+
+h5 {
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textintro {
+    font-family:serif;
+    text-align: left;
+    font-size: 30px;
+    width: 30%;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.perfil{
+    padding: 70px;
+    margin-left: 680px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
